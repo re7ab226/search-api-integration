@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Search Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        #searchForm {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        #searchForm input, #searchForm button {
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Search API</h1>
+    <form id="searchForm" action="results.html">
+        <input type="text" id="nameInput" name="name" placeholder="Enter name">
+        <input type="text" id="areaInput" name="area" placeholder="Enter area">
+        <input type="number" id="roomCountInput" name="room_count" placeholder="Enter room count">
+        <input type="number" id="pricehigh" name="price high" placeholder="Enter price high ">
+        <input type="number" id="pricelow" name="price low" placeholder="Enter price low ">
+
+
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>
